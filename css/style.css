@@ -1,0 +1,48 @@
+#main-header img {
+	width: 100%;
+	height: 100%;
+}
+
+.fab:hover {
+	opacity: 0.8;
+}
+
+#main-header .port-item {
+	width: 25%;
+}
+
+#main-header .port-item:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.bg-black {
+	background: black;
+	color: white;
+}
+
+@media (min-width: 1199px) {
+	.port-item {
+		padding: 3em !important;
+	}
+}
+
+@media (max-width: 441px) {
+	.control-icon {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	h1 {
+		order: -1;
+		flex: 1 0 100%;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.padding-control {
+		padding: 2rem !important;
+	}
+}
